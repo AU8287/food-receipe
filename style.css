@@ -1,0 +1,174 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Young+Serif&display=swap');
+
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+  Nutmeg: hsl(14, 60%, 67%);
+   Dark-Raspberry: hsl(332, 51%, 32%);
+  
+   White: hsl(0, 0%, 100%);
+  Rose-White: hsl(330, 100%, 98%);
+  Eggshell: hsl(30, 54%, 90%);
+  Light-Grey: hsl(30, 18%, 87%);
+   Wenge-Brown: hsl(30, 10%, 34%);
+  Dark-Charcoal: hsl(24, 5%, 18%);
+  
+}
+
+p{
+  font-size:16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.container{
+  padding: 50px;
+  margin: 50px;
+  background-color: white;
+  max-width:min-content;
+ 
+}
+
+
+img{
+  width: 600px;
+justify-content : center;
+border-radius: 10px;
+object-fit: contain;
+margin-bottom: 10px;
+}
+
+.image{
+  text-align: center;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+
+h1,h2{
+  font-family:'Young serif',sans-serif;
+  font-weight: 400;
+}
+
+.incred{
+margin: 20px;
+}
+
+
+
+h1{
+  color: hsl(24, 5%, 18%) ;
+  font-size: 2rem;
+}
+
+
+.description{
+    font-weight: 5px;
+    display: inline;
+}
+
+span{
+  font-family:Young Serif,sans-serif;
+}
+
+
+body{
+background-color: hsl(30, 18%, 87%);
+
+font-family:'outfit',sans-serif;
+display: grid;
+place-content: center;
+line-height: 1.4;
+margin: 1 auto;
+
+} 
+
+
+
+
+   h3{
+    color:  hsl(332, 51%, 32%);
+    margin-left: 30px;
+    padding: 10px;
+    
+   }
+
+   ul>li>span{
+   font-family: 'Young Serif', serif; 
+    
+  }
+    ul>li{
+      padding: 5px;
+    }
+    
+    .instructions{
+      margin-top: 20px;
+      padding: 20px;
+      
+    }
+
+    .steps{
+      margin-top: 10px;
+      padding: 5px auto;
+    }
+
+
+
+   
+
+   .preparation{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: hsl(30, 18%, 87%);
+    max-width:100%;
+    border-radius: 5px;
+    
+    
+   }
+
+  .list{
+    margin-left: 30px;
+   padding: 10px;
+  }
+
+.amount,h2{
+  color:  hsl(332, 51%, 32%) ;
+}
+
+
+
+
+
+.nutrition{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
+
+.vitamin{
+  position: relative;
+  top:15px ;
+  
+}
+
+.amount{
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  position: relative;
+  bottom:10px ;
+  padding: 5px;
+  justify-content:space-around;
+  font-weight:bold
+}
